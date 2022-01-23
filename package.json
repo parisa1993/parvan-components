@@ -1,6 +1,6 @@
 {
-  "name": "parvan-components",
-  "version": "0.1.0",
+  "name": "parvan-pajooh-components",
+  "version": "0.1.1",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parisa1993/parvan-components.git"
+}
 }
