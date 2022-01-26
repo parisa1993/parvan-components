@@ -2,13 +2,6 @@ import React from "react";
 import "../styles/index.css";
 
 export default class Button extends React.Component {
-  static propTypes = {
-    //types
-    type: React.PropTypes.string, //'contained', 'outlined', 'text'
-    //extensions
-    children: React.PropTypes.node,
-    className: React.PropTypes.string
-  }
 
   render() {
     const {
@@ -20,7 +13,7 @@ export default class Button extends React.Component {
 
     
     let classes = type === undefined ? 'contained' : type;
-    classes += className !== '' ? ',' + className : ''; 
+    classes += className !== undefined ? ' ' + className : ''; 
 
     return (
       <button className={classes} {...other}>
